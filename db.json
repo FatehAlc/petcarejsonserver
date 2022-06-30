@@ -1,14 +1,219 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "receipts": [
+    {
+      "clinicName": "Smådyrklinikk",
+      "clinicAddress": "Lyderhornsveien 295, 5171 Loddefjord",
+      "clinicEmail": "info@Smadyrklinikk.no",
+      "clinicPhone": "12345678",
+      "clinicRegnum": "45678",
+      "ownerName": "fateh",
+      "ownerLastName": "Alchhabi",
+      "ownerEmail": "fateh.alchhabi@gmail.com",
+      "ownerPhone": "97378134",
+      "additionalInfo": "addtional info",
+      "treadNames": [
+        {
+          "treadName": "Sulfodene Medication for Dogs",
+          "Ingredient": "2-Mercaptobenzothiazole",
+          "ActiveIngredients": "2-Mercaptobenzothiazole",
+          "id": 1
+        },
+        {
+          "treadName": "PromAce Injectable",
+          "Ingredient": "Acepromazine Maleate",
+          "ActiveIngredients": "Acepromazine Maleate",
+          "id": 2
+        },
+        {
+          "treadName": "PromAce Tablets",
+          "Ingredient": "Acepromazine Maleate",
+          "ActiveIngredients": "Acepromazine Maleate",
+          "id": 3
+        }
+      ],
+      "interval": 7,
+      "issueDate": "2022-06-14T21:33:02.894Z",
+      "receiptId": "qgm4",
+      "isActive": true,
+      "id": "fa-qgm4"
+    },
+    {
+      "clinicName": "Smådyrklinikk",
+      "clinicAddress": "Lyderhornsveien 295, 5171 Loddefjord",
+      "clinicEmail": "info@Smadyrklinikk.no",
+      "clinicPhone": "12345678",
+      "clinicRegnum": "45678",
+      "ownerName": "fateh",
+      "ownerLastName": "dssds",
+      "ownerEmail": "fateh.alchhabi@gmail.com",
+      "ownerPhone": "97378134",
+      "additionalInfo": "aaSAs",
+      "treadNames": [
+        {
+          "treadName": "Sulfodene Medication for Dogs",
+          "Ingredient": "2-Mercaptobenzothiazole",
+          "ActiveIngredients": "2-Mercaptobenzothiazole",
+          "id": 1
+        },
+        {
+          "treadName": "PromAce Injectable",
+          "Ingredient": "Acepromazine Maleate",
+          "ActiveIngredients": "Acepromazine Maleate",
+          "id": 2
+        },
+        {
+          "treadName": "Acepromazine Maleate Injection",
+          "Ingredient": "Acepromazine Maleate",
+          "ActiveIngredients": "Acepromazine Maleate",
+          "id": 4
+        }
+      ],
+      "interval": "0",
+      "issueDate": "2022-06-15T21:56:10.890Z",
+      "receiptId": "2bmk",
+      "isActive": false,
+      "id": "fa-2bmk"
+    },
+    {
+      "clinicName": "Smådyrklinikk",
+      "clinicAddress": "Lyderhornsveien 295, 5171 Loddefjord",
+      "clinicEmail": "info@Smadyrklinikk.no",
+      "clinicPhone": "12345678",
+      "clinicRegnum": "45678",
+      "ownerName": "fateh",
+      "ownerLastName": "Alchhabi",
+      "ownerEmail": "fateh.alchhabi@gmail.com",
+      "ownerPhone": "97378134",
+      "additionalInfo": "Testing value",
+      "treadNames": [
+        {
+          "treadName": "Sulfodene Medication for Dogs",
+          "Ingredient": "2-Mercaptobenzothiazole",
+          "ActiveIngredients": "2-Mercaptobenzothiazole",
+          "id": 1
+        },
+        {
+          "treadName": "Acepromazine Maleate Injection",
+          "Ingredient": "Acepromazine Maleate",
+          "ActiveIngredients": "Acepromazine Maleate",
+          "id": 6
+        },
+        {
+          "treadName": "Vetamox Soluble Powder",
+          "Ingredient": "Acetazolamide Sodium",
+          "ActiveIngredients": "Acetazolamide Sodium",
+          "id": 8
+        }
+      ],
+      "interval": "5",
+      "issueDate": "2022-06-22T20:35:11.023Z",
+      "receiptId": "1kkc",
+      "isActive": true,
+      "id": "fa-1kkc"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "medication": [
+    {
+      "treadName": "Sulfodene Medication for Dogs",
+      "Ingredient": "2-Mercaptobenzothiazole",
+      "ActiveIngredients": "2-Mercaptobenzothiazole",
+      "id": 1
+    },
+    {
+      "treadName": "PromAce Injectable",
+      "Ingredient": "Acepromazine Maleate",
+      "ActiveIngredients": "Acepromazine Maleate",
+      "id": 2
+    },
+    {
+      "treadName": "PromAce Tablets",
+      "Ingredient": "Acepromazine Maleate",
+      "ActiveIngredients": "Acepromazine Maleate",
+      "id": 3
+    },
+    {
+      "treadName": "Acepromazine Maleate Injection",
+      "Ingredient": "Acepromazine Maleate",
+      "ActiveIngredients": "Acepromazine Maleate",
+      "id": 4
+    },
+    {
+      "treadName": "PromAce",
+      "Ingredient": "Acepromazine Maleate",
+      "ActiveIngredients": "Acepromazine Maleate",
+      "id": 5
+    },
+    {
+      "treadName": "Acepromazine Maleate Injection",
+      "Ingredient": "Acepromazine Maleate",
+      "ActiveIngredients": "Acepromazine Maleate",
+      "id": 6
+    },
+    {
+      "treadName": "Acepromazine Maleate Injection",
+      "Ingredient": "Acepromazine Maleate",
+      "ActiveIngredients": "Acepromazine Maleate",
+      "id": 7
+    },
+    {
+      "treadName": "Vetamox Soluble Powder",
+      "Ingredient": "Acetazolamide Sodium",
+      "ActiveIngredients": "Acetazolamide Sodium",
+      "id": 8
+    },
+    {
+      "treadName": "Cortaba Tablets",
+      "Ingredient": "Acetylsalicylic Acid",
+      "ActiveIngredients": "Acetylsalicylic Acid, Methylprednisolone",
+      "id": 9
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "pharmacy": [
+    {
+      "name": "Vitusapotek",
+      "regNum": "12345",
+      "id": 1
+    },
+    {
+      "name": "Apotek 1 Madla",
+      "regNum": "45678",
+      "id": 2
+    },
+    {
+      "name": "Apotek 1 Hjorten Stavanger",
+      "regNum": "12589",
+      "id": 3
+    },
+    {
+      "name": "Ryfylke apotek",
+      "regNum": "90123",
+      "id": 4
+    }
+  ],
+  "clinic": [
+    {
+      "name": "Smådyrklinikk",
+      "address": "Lyderhornsveien 295, 5171 Loddefjord",
+      "regNum": "45678",
+      "email": "info@Smadyrklinikk.no",
+      "phone": "12345678",
+      "id": 1
+    },
+    {
+      "name": "anicura",
+      "address": "Lyderhornsveien 295, 5171 Loddefjord",
+      "regNum": "12345",
+      "email": "info@anicura.no",
+      "phone": "12345678",
+      "id": 2
+    },
+    {
+      "name": "Hinna Dyreklinikk",
+      "address": "Lyderhornsveien 295, 5171 Loddefjord",
+      "regNum": "12589",
+      "email": "info@Dyreklinikk.no",
+      "phone": "12345678",
+      "id": 3
+    }
+  ]
 }
